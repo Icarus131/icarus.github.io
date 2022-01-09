@@ -1,48 +1,56 @@
+<!------COMMON SETTINGS--------->
+
 <html>
 <head>
-		<title>Icarus - Projects</title>
-		 <style>
-      body {
-        background-color: #120314;
-      }
-  </style>
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Icarus - Home</title>
+	 <style>
+      body {background-color: #000000;}
+  	</style>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
-	<body>
 
-			<div class="banner">
-	<div class="navbar">
-	<img src="images/logo.png" class="logo">
-	<ul>
-		<li><a href="index.html">Home</li></a>
-		<li><a href="whoami.html">Whoami</li></a>
-		<li><a href="gallery.html">Gallery</li></a>
-		<li><a href="thoughts.html">Thoughts</li></a>
-		<li><a href="projects.html">Projects</li></a>
-		<li><a href="contact.html">Contact</li></a>
+<body>
+
+<div id="particles-js"></div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+<nav>
+	<input id="nav-toggle" type="checkbox">
+	<div class="logo"><img src="images/logo.png"></div>
+	<ul class="links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="whoami.html">Whoami</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="thoughts.html">Thoughts</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="contact.html">Contact</a></li>
 	</ul>
-	</div>
-	</div>
 
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
 
-		<div id="particles-js"></div>
-		<script type="text/javascript" src="particles.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+<!------COMMON SETTINGS--------->
 
-		
-				<div class="projects">
+<div class="project">
+
 			<h1>Projects</h1>
-			<br>
-			<br>
-			<p><img src="https://github-readme-stats.vercel.app/api?username=Icarus131&&show_icons=true&title_color=ffffff&icon_color=fe6f5e&text_color=146870&bg_color=151515"><br><br><br><br></p>
-		<br>
-		<br>
-		<br>
-		<br>
-		</div>
 
-		<div class="links">
+			<br>
+			<br>
+		<div class="vercel">	
+			<p><img src="https://github-readme-stats.vercel.app/api?username=Icarus131&&show_icons=true&title_color=ffffff&icon_color=fe6f5e&text_color=146870&bg_color=151515"></p>
+		</div>
+	</div>
+
+<div class="projbut">
 
 				<a href="https://github.com/Icarus131/Sigmoid-Handwriting">
 					<button type="button"><span></span>Sigmoid-Handwriting</button>
