@@ -1,0 +1,50 @@
+
+<!------COMMON SETTINGS--------->
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Icarus - Gallery</title>
+	 <style>
+      body {background-color: #000000;}
+  	</style>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+<nav>
+	<input id="nav-toggle" type="checkbox">
+
+		<ul class="links">
+		<li><a href="index">Home</a></li>
+		<li><a href="whoami">Whoami</a></li>
+		<li><a href="gallery">Gallery</a></li>
+		<li><a href="thoughts">Thoughts</a></li>
+		<li><a href="projects">Projects</a></li>
+		<li><a href="contact">Contact</a></li>
+	</ul>
+	<div class="logo"><a href="index"><img src="images/logo.png"></div>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
+
+<!------COMMON SETTINGS--------->
+
+    <div class="pictures">
+  <img src="images/neofetchdesktop.png" alt="Neofetch on desktop" width="500" height="300">
+  <img src="images/neofetchlaptop" alt="Neofetch on laptop" width="500" height="300">
+  <img src="images/vimsetup" alt="Vim" width="500" height="300">
+  <img src="images/sublimesetup" alt="Sublime Text" width="500" height="300">
+  <img src="images/desktop1.jpg" alt="Desktop Setup1" width="500" height="300">
+  <img src="images/desktop2.jpg" alt="Desktop Setup2" width="500" height="300">
+</div>
