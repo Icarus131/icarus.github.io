@@ -563,6 +563,11 @@ button:hover{
 	color: #fff;
 }
 
+
+.post img{	
+	border-radius: 20px;
+}
+
 .post h5{
 
 }
