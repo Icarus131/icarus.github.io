@@ -519,6 +519,7 @@ button:hover{
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
+	border-radius: 20px;
 }
 .blog h1{
 	font-size:70px
