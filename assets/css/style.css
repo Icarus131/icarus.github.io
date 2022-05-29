@@ -515,12 +515,16 @@ button:hover{
 .blog{
 	width: 100%;
 	position: absolute;
-	top: 25%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
 	border-radius: 20px;
+	display: list-item;
+	padding-top: 900px;
+	margin-top: 100px;
+	overflow: visible;
 }
+
 .blog h1{
 	font-size:70px
 	margin-top: 70px;
@@ -550,6 +554,46 @@ button:hover{
 	text-align: justify;
 	width: 70%;
 }
+
+.blog ul {
+  counter-reset: index;  
+  padding: 0;
+  max-width: 300px;
+  margin-left: 90px;
+}
+
+/* List element */
+.blog li {
+  counter-increment: index; 
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+
+/* Element counter */
+.blog li::before {
+  content: counters(index, ".", decimal-leading-zero);
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: bold;
+  min-width: 50px;
+  padding-right: 12px;
+  font-variant-numeric: tabular-nums;
+  align-self: flex-start;
+  background-image: linear-gradient(to bottom, aquamarine, orangered);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Element separation */
+.blog li + li {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
 
 .post{
 	width: 80%;
