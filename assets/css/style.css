@@ -280,12 +280,12 @@ button:hover{
 }
 
 .about::-webkit-scrollbar{
-	display:  none;
+	display: true;
 }
 
 .about{
 	 -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: 10px;
 }
 
 .about h1{
